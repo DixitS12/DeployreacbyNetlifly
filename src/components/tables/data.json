@@ -1,0 +1,784 @@
+{
+  "columns": [
+    {
+      "id": "01",
+      "dataField": "id",
+      "text": "ID",
+      "align": "center",
+      "headerAlign": "center",
+      "csvExport": true,
+      "type": "text",
+      "sort": true,
+      "required": true,
+      "hidden": false,
+      "is_filter": true,
+      "is_hide_show": true
+    },
+    {
+      "id": "02",
+      "dataField": "",
+      "text": "",
+      "align": "center",
+      "headerAlign": "center",
+      "type": "image",
+      "csvExport": false,
+      "sort": false,
+      "required": false,
+      "hidden": false,
+      "is_col_hidden": true,
+      "is_filter": false,
+      "is_hide_show": false,
+      "is_formatter": "attchment"
+    },
+    {
+      "id": "03",
+      "dataField": "CaseTypeName",
+      "text": "Value Text",
+      "align": "left",
+      "headerAlign": "left",
+      "type": "select",
+      "csvExport": true,
+      "sort": true,
+      "required": false,
+      "hidden": false,
+      "is_filter": true,
+      "is_hide_show": true,
+      "is_formatter": "badge",
+      "control_value": [
+        {
+          "value": "tranning",
+          "text": "Training",
+          "id": "01"
+        },
+        {
+          "value": "acknowledgment",
+          "text": "Acknowledgment",
+          "id": "02"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "dataField": "CaseOwnerDisplayName",
+      "text": "Owner Name",
+      "align": "left",
+      "headerAlign": "left",
+      "type": "text",
+      "csvExport": true,
+      "sort": true,
+      "required": true,
+      "hidden": false,
+      "is_filter": true,
+      "is_hide_show": true,
+      "is_formatter": "nameEmail"
+    },
+    {
+      "id": "04",
+      "dataField": "CaseCreatedDate",
+      "text": "Created Date",
+      "align": "center",
+      "headerAlign": "center",
+      "type": "date",
+      "csvExport": true,
+      "sort": false,
+      "required": false,
+      "hidden": false,
+      "is_filter": true,
+      "is_hide_show": true,
+      "is_formatter": "date"
+    },
+    {
+      "id": "05",
+      "dataField": "CaseDue",
+      "text": "Case Date",
+      "align": "center",
+      "headerAlign": "center",
+      "type": "date",
+      "csvExport": true,
+      "sort": false,
+      "required": false,
+      "hidden": false,
+      "is_filter": true,
+      "is_hide_show": true
+    }
+    
+  ],
+  "products": [
+    {
+      "id": 1,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021",
+      "attchement": [
+        {
+          "datatime": "june 28,2021 3:47 pm",
+          "user": "Dixit Solanki",
+          "type": "word",
+          "url": "https://Cases.BoxerProperty.com/DownloadFile.aspx?CaseFileID=2795386&amp;View=Y&amp;FileName=1300_B236_3.jpg",
+          "id": "01"
+        },
+        {
+          "datatime": "june 29,2021 3:47 pm",
+          "user": "Arpan Desai",
+          "type": "pdf",
+          "url": "https://Cases.BoxerProperty.com/DownloadFile.aspx?CaseFileID=2795386&amp;View=Y&amp;FileName=1300_B236_3.jpg",
+          "id": "02"
+        },
+        {
+          "datatime": "june 30,2021 3:47 pm",
+          "user": "Vijay Prajapati",
+          "type": "word",
+          "url": "https://Cases.BoxerProperty.com/DownloadFile.aspx?CaseFileID=2795386&amp;View=Y&amp;FileName=1300_B236_3.jpg",
+          "id": "03"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://picsum.photos/id/1018/1000/600/",
+          "id": "01"
+        },
+        {
+          "url": "https://picsum.photos/id/1015/1000/600/",
+          "id": "02"
+        },
+        {
+          "url": "https://picsum.photos/id/1019/1000/600/",
+          "id": "03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 3,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 4,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 5,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 6,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 7,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 8,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 9,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 10,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 11,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 12,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 13,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "iDixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 14,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 15,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 16,
+      "id": 16,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 17,
+      "id": 17,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 18,
+      "id": 18,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 19,
+      "id": 19,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 20,
+      "id": 20,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 21,
+      "id": 21,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 22,
+      "id": 22,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 23,
+      "id": 23,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 24,
+      "id": 24,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 25,
+      "id": 25,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 26,
+      "id": 26,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 27,
+      "id": 27,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 28,
+      "id": 28,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "iDixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 29,
+      "id": 29,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 30,
+      "id": 30,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 31,
+      "id": 31,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 32,
+      "id": 32,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 33,
+      "id": 33,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 34,
+      "id": 34,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 35,
+      "id": 35,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 36,
+      "id": 36,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 37,
+      "id": 37,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 38,
+      "id": 38,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 39,
+      "id": 39,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 40,
+      "id": 40,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 41,
+      "id": 41,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 42,
+      "id": 42,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 43,
+      "id": 43,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "iDixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 44,
+      "id": 44,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 45,
+      "id": 45,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 46,
+      "id": 46,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 47,
+      "id": 47,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 48,
+      "id": 48,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 49,
+      "id": 49,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 50,
+      "id": 50,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 51,
+      "id": 51,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 52,
+      "id": 52,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 53,
+      "id": 53,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 54,
+      "id": 54,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 55,
+      "id": 55,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 56,
+      "id": 56,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 57,
+      "id": 57,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 58,
+      "id": 58,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "iDixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 59,
+      "id": 59,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 60,
+      "id": 60,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 61,
+      "id": 61,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "key": 62,
+      "id": 62,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    }
+  ],
+  "init_products": [
+    {
+      "id": 1,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021",
+      "attchement": [
+        {
+          "datatime": "june 28,2021 3:47 pm",
+          "user": "Dixit Solanki",
+          "type": "image",
+          "url": "http://www.stemmonsservices.com/wp-content/uploads/2020/06/img1.jpg",
+          "file_name": "dekstop.jpg",
+          "id": "01"
+        },
+        {
+          "datatime": "june 29,2021 3:47 pm",
+          "user": "Arpan Desai",
+          "type": "pdf",
+          "url": "https://www.tutorialspoint.com/reactjs/reactjs_tutorial.pdf",
+          "file_name": "react.pdf",
+          "id": "02"
+        },
+        {
+          "datatime": "june 30,2021 3:47 pm",
+          "user": "Vijay Prajapati",
+          "type": "word",
+          "url": "https://cases.stemmons.com//DownloadFile.aspx?CaseFileID=98031&View=Y&FileName=List_Component_5-11-2021.docx",
+          "file_name": "list_component.docx",
+          "id": "03"
+        },
+        {
+          "datatime": "june 30,2021 3:47 pm",
+          "user": "Dixit Solanki",
+          "type": "xlsx",
+          "url": "https://file-examples-com.github.io/uploads/2017/02/file_example_XLS_10.xls",
+          "file_name": "data.xlsx",
+          "id": "03"
+        }
+      ],
+      "gallary": [
+        {
+          "url": "https://picsum.photos/id/1018/1000/600/",
+          "title": "Image-1",
+          "id": "01"
+        },
+        {
+          "url": "https://picsum.photos/id/1015/1000/600/",
+          "title": "Image-2",
+          "id": "02"
+        },
+        {
+          "url": "https://picsum.photos/id/1019/1000/600/",
+          "title": "Image-3",
+          "id": "03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 3,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 4,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 5,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 6,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 7,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 8,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 9,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 10,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 11,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 12,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 13,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "iDixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 14,
+      "CaseTypeName": "Training",
+      "CaseOwnerDisplayName": "Dixit Solanki",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    },
+    {
+      "id": 15,
+      "CaseTypeName": "Acknowledgment",
+      "CaseOwnerDisplayName": "Vijay Prajapati",
+      "CaseCreatedDate": "2021-04-08T07:06:15.697",
+      "CaseDue": "08/31/2021"
+    }
+  ]
+}

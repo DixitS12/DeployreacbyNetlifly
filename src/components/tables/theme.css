@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+html,
+body {
+  font-family: "Poppins", sans-serif !important;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.MuiDataGrid-root .MuiDataGrid-columnsContainer {
+  background-color: #d6e0ea;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #444;
+}
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}
+.pagination.react-bootstrap-table-page-btns-ul {
+  float: right;
+}
+
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #337ab7;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  z-index: 3;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  cursor: default;
+}
+.pagination .page-item.active .page-link {
+  z-index: 2;
+  border-radius: 5px !important;
+  border: 0;
+  margin-right: 0.2rem;
+}
+.pagination .page-link:hover {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background-color: #eee;
+}
+.pagination .page-item .page-link {
+  z-index: 2;
+  color: #3d3d3d;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+.react-bootstrap-table-page-btns-ul.pagination {
+  float: right;
+}
+.react-bs-table-pagination > .row > div {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0;
+  float: left;
+}
+
+.react-bs-table-pagination > .row {
+  display: unset;
+  margin-right: 0;
+  margin-left: 0;
+  flex-wrap: unset;
+}
+.react-bs-table-pagination {
+  background: transparent;
+  border-top: 0 !important;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* badge */
+.badge {
+  line-height: unset !important;
+}
+.bg-light-primary {
+  color: #3699ff !important;
+  background-color: #e1f0ff !important;
+}
+.bg-light-success {
+  color: #1bc5bd !important;
+  background-color: #c9f7f5;
+}
+/* .table-bordered > :not(caption) > * > * {
+  border-width: 0 !important;
+} */
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 0 !important;
+}
+.text-primary {
+  color: #3699ff !important;
+}
+/* button */
+.btn.btn-light {
+  color: #7e8299;
+  background-color: #f3f6f9;
+  border-color: #f3f6f9;
+}
+.btn.btn-default {
+  color: #0d6efd;
+  background-color: #f3f6f9;
+  border-color: #f3f6f9;
+}
+.text-right {
+  text-align: right;
+}
+.btn.btn-success {
+  color: #ffffff !important;
+  background-color: #1bc5bd !important;
+  border-color: #1bc5bd !important;
+}
+.react-bootstrap-table table {
+  table-layout: fixed;
+  color: #6b6b73 !important;
+  table-layout: initial !important;
+  color: #6b6b73 !important;
+}
+.table > thead {
+  vertical-align: bottom;
+  background-color: #e1f0ff;
+  border: 1px solid #eee;
+}
+.table-hover > tbody > tr:hover {
+  --bs-table-accent-bg: rgb(225 240 255) !important;
+  color: var(--bs-table-hover-color) !important;
+}
+.react-bootstrap-table td {
+  vertical-align: middle;
+}
+.symbol-label img {
+  width: 22px;
+  height: 23px;
+}
+.symbol-label {
+  font-weight: 500;
+  color: #3f4254;
+  background-color: #f3f6f9;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0.42rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+.text-muted {
+  color: #b5b5c3 !important;
+}
+a {
+  color: #3699ff;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+.page-item.disabled .page-link {
+  border-color: white !important;
+}
+
+input[type="checkbox" i] {
+  background-color: #ebedf3;
+  border: 1px solid transparent;
+}
+.fa fa-pencil react-bs-table .MuiIconButton-root {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+legend {
+  float: inherit !important;
+}
+#widget-menu svg {
+  margin-right: 1rem;
+}
+.MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+#tabel-scroll {
+  height: 500px !important;
+  overflow: scroll;
+}
+
+
+.table>:not(caption)>*>* {
+  padding: .3rem .2rem;
+  background-color: var(--bs-table-bg);
+  border-bottom-width: 0px;
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+.react-bootstrap-table td > .selection-input-4, .react-bootstrap-table th > .selection-input-4 {
+  margin-left: 0.8rem !important;
+  margin-right: 0.7rem !important;
+}
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  transform: translate(16px, 1px) scale(0.75) !important;
+}
+
+#action-body {
+  display: flex;
+  max-height: calc(100% - 64px);
+  flex-direction: column;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.input-group>.form-control, .input-group>.form-select {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+}
+.input-group .btn {
+  position: relative;
+  z-index: 2;
+}
+
+.d-flex {
+  display: flex !important;
+}
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+  border-top-right-radius: 0  !important;
+  border-bottom-right-radius: 0  !important;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.1em + 0.75rem + 2px) !important;
+}
+.font-weight-bolder {
+  font-weight: 400 ! important;
+}
+.font-weight-bold {
+  font-weight: 400 !important;
+}
